@@ -92,7 +92,7 @@ public class SvgUtil {
         String height = args[1];
         String outputPath="output.png";
         if(args.length>=3){
-            outputPath=args[0];
+            outputPath=args[2];
         }
         infoOutput(path,height);
         FilePreHandle.autoReplaceStr(path);
